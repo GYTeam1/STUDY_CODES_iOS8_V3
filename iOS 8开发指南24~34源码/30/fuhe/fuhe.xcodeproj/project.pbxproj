@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2AFD7E166DA3BD00D36289 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2AFD7D166DA3BD00D36289 /* Default-568h@2x.png */; };
+		AC7032981610337100207FB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7032971610337100207FB5 /* UIKit.framework */; };
+		AC70329A1610337100207FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7032991610337100207FB5 /* Foundation.framework */; };
+		AC70329C1610337100207FB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC70329B1610337100207FB5 /* CoreGraphics.framework */; };
+		AC70329E1610337100207FB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC70329D1610337100207FB5 /* CoreData.framework */; };
+		AC7032A41610337100207FB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7032A21610337100207FB5 /* InfoPlist.strings */; };
+		AC7032A61610337100207FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7032A51610337100207FB5 /* main.m */; };
+		AC7032AA1610337100207FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7032A91610337100207FB5 /* AppDelegate.m */; };
+		AC7032AD1610337100207FB5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7032AB1610337100207FB5 /* MainStoryboard_iPhone.storyboard */; };
+		AC7032B01610337100207FB5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7032AE1610337100207FB5 /* MainStoryboard_iPad.storyboard */; };
+		AC7032B31610337100207FB5 /* fuhe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7032B11610337100207FB5 /* fuhe.xcdatamodeld */; };
+		AC7032B61610337100207FB5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7032B51610337100207FB5 /* MasterViewController.m */; };
+		AC7032B91610337100207FB5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7032B81610337100207FB5 /* DetailViewController.m */; };
+		AC7032D21610345D00207FB5 /* gerbera.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C41610345D00207FB5 /* gerbera.png */; };
+		AC7032D31610345D00207FB5 /* grapehyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C51610345D00207FB5 /* grapehyacinth.png */; };
+		AC7032D41610345D00207FB5 /* hollyhock.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C61610345D00207FB5 /* hollyhock.png */; };
+		AC7032D51610345D00207FB5 /* hyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C71610345D00207FB5 /* hyacinth.png */; };
+		AC7032D61610345D00207FB5 /* hydrangea.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C81610345D00207FB5 /* hydrangea.png */; };
+		AC7032D71610345D00207FB5 /* iris.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032C91610345D00207FB5 /* iris.png */; };
+		AC7032D81610345D00207FB5 /* peony.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CA1610345D00207FB5 /* peony.png */; };
+		AC7032D91610345D00207FB5 /* phlox.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CB1610345D00207FB5 /* phlox.png */; };
+		AC7032DA1610345D00207FB5 /* pincushionflower.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CC1610345D00207FB5 /* pincushionflower.png */; };
+		AC7032DB1610345D00207FB5 /* poppy.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CD1610345D00207FB5 /* poppy.png */; };
+		AC7032DC1610345D00207FB5 /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CE1610345D00207FB5 /* rose.png */; };
+		AC7032DD1610345D00207FB5 /* sea holly.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032CF1610345D00207FB5 /* sea holly.png */; };
+		AC7032DE1610345D00207FB5 /* strawflower.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032D01610345D00207FB5 /* strawflower.png */; };
+		AC7032DF1610345D00207FB5 /* tulip.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7032D11610345D00207FB5 /* tulip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2AFD7D166DA3BD00D36289 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC7032931610337100207FB5 /* fuhe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuhe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7032971610337100207FB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC7032991610337100207FB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC70329B1610337100207FB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC70329D1610337100207FB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC7032A11610337100207FB5 /* fuhe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fuhe-Info.plist"; sourceTree = "<group>"; };
+		AC7032A31610337100207FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC7032A51610337100207FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC7032A71610337100207FB5 /* fuhe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fuhe-Prefix.pch"; sourceTree = "<group>"; };
+		AC7032A81610337100207FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC7032A91610337100207FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC7032AC1610337100207FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AC7032AF1610337100207FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AC7032B21610337100207FB5 /* fuhe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fuhe.xcdatamodel; sourceTree = "<group>"; };
+		AC7032B41610337100207FB5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AC7032B51610337100207FB5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AC7032B71610337100207FB5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AC7032B81610337100207FB5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AC7032C41610345D00207FB5 /* gerbera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gerbera.png; sourceTree = "<group>"; };
+		AC7032C51610345D00207FB5 /* grapehyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapehyacinth.png; sourceTree = "<group>"; };
+		AC7032C61610345D00207FB5 /* hollyhock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollyhock.png; sourceTree = "<group>"; };
+		AC7032C71610345D00207FB5 /* hyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyacinth.png; sourceTree = "<group>"; };
+		AC7032C81610345D00207FB5 /* hydrangea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hydrangea.png; sourceTree = "<group>"; };
+		AC7032C91610345D00207FB5 /* iris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iris.png; sourceTree = "<group>"; };
+		AC7032CA1610345D00207FB5 /* peony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peony.png; sourceTree = "<group>"; };
+		AC7032CB1610345D00207FB5 /* phlox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phlox.png; sourceTree = "<group>"; };
+		AC7032CC1610345D00207FB5 /* pincushionflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pincushionflower.png; sourceTree = "<group>"; };
+		AC7032CD1610345D00207FB5 /* poppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poppy.png; sourceTree = "<group>"; };
+		AC7032CE1610345D00207FB5 /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		AC7032CF1610345D00207FB5 /* sea holly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sea holly.png"; sourceTree = "<group>"; };
+		AC7032D01610345D00207FB5 /* strawflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawflower.png; sourceTree = "<group>"; };
+		AC7032D11610345D00207FB5 /* tulip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7032901610337100207FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7032981610337100207FB5 /* UIKit.framework in Frameworks */,
+				AC70329A1610337100207FB5 /* Foundation.framework in Frameworks */,
+				AC70329C1610337100207FB5 /* CoreGraphics.framework in Frameworks */,
+				AC70329E1610337100207FB5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7032881610337100207FB5 = {
+			isa = PBXGroup;
+			children = (
+				AC2AFD7D166DA3BD00D36289 /* Default-568h@2x.png */,
+				AC70329F1610337100207FB5 /* fuhe */,
+				AC7032961610337100207FB5 /* Frameworks */,
+				AC7032941610337100207FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7032941610337100207FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7032931610337100207FB5 /* fuhe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7032961610337100207FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7032971610337100207FB5 /* UIKit.framework */,
+				AC7032991610337100207FB5 /* Foundation.framework */,
+				AC70329B1610337100207FB5 /* CoreGraphics.framework */,
+				AC70329D1610337100207FB5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC70329F1610337100207FB5 /* fuhe */ = {
+			isa = PBXGroup;
+			children = (
+				AC7032A81610337100207FB5 /* AppDelegate.h */,
+				AC7032A91610337100207FB5 /* AppDelegate.m */,
+				AC7032C31610345D00207FB5 /* Images */,
+				AC7032AB1610337100207FB5 /* MainStoryboard_iPhone.storyboard */,
+				AC7032AE1610337100207FB5 /* MainStoryboard_iPad.storyboard */,
+				AC7032B41610337100207FB5 /* MasterViewController.h */,
+				AC7032B51610337100207FB5 /* MasterViewController.m */,
+				AC7032B71610337100207FB5 /* DetailViewController.h */,
+				AC7032B81610337100207FB5 /* DetailViewController.m */,
+				AC7032B11610337100207FB5 /* fuhe.xcdatamodeld */,
+				AC7032A01610337100207FB5 /* Supporting Files */,
+			);
+			path = fuhe;
+			sourceTree = "<group>";
+		};
+		AC7032A01610337100207FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7032A11610337100207FB5 /* fuhe-Info.plist */,
+				AC7032A21610337100207FB5 /* InfoPlist.strings */,
+				AC7032A51610337100207FB5 /* main.m */,
+				AC7032A71610337100207FB5 /* fuhe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC7032C31610345D00207FB5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC7032C41610345D00207FB5 /* gerbera.png */,
+				AC7032C51610345D00207FB5 /* grapehyacinth.png */,
+				AC7032C61610345D00207FB5 /* hollyhock.png */,
+				AC7032C71610345D00207FB5 /* hyacinth.png */,
+				AC7032C81610345D00207FB5 /* hydrangea.png */,
+				AC7032C91610345D00207FB5 /* iris.png */,
+				AC7032CA1610345D00207FB5 /* peony.png */,
+				AC7032CB1610345D00207FB5 /* phlox.png */,
+				AC7032CC1610345D00207FB5 /* pincushionflower.png */,
+				AC7032CD1610345D00207FB5 /* poppy.png */,
+				AC7032CE1610345D00207FB5 /* rose.png */,
+				AC7032CF1610345D00207FB5 /* sea holly.png */,
+				AC7032D01610345D00207FB5 /* strawflower.png */,
+				AC7032D11610345D00207FB5 /* tulip.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7032921610337100207FB5 /* fuhe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7032BC1610337100207FB5 /* Build configuration list for PBXNativeTarget "fuhe" */;
+			buildPhases = (
+				AC70328F1610337100207FB5 /* Sources */,
+				AC7032901610337100207FB5 /* Frameworks */,
+				AC7032911610337100207FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fuhe;
+			productName = fuhe;
+			productReference = AC7032931610337100207FB5 /* fuhe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC70328A1610337100207FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = AC70328D1610337100207FB5 /* Build configuration list for PBXProject "fuhe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC7032881610337100207FB5;
+			productRefGroup = AC7032941610337100207FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7032921610337100207FB5 /* fuhe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7032911610337100207FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7032A41610337100207FB5 /* InfoPlist.strings in Resources */,
+				AC7032AD1610337100207FB5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				AC7032B01610337100207FB5 /* MainStoryboard_iPad.storyboard in Resources */,
+				AC7032D21610345D00207FB5 /* gerbera.png in Resources */,
+				AC7032D31610345D00207FB5 /* grapehyacinth.png in Resources */,
+				AC7032D41610345D00207FB5 /* hollyhock.png in Resources */,
+				AC7032D51610345D00207FB5 /* hyacinth.png in Resources */,
+				AC7032D61610345D00207FB5 /* hydrangea.png in Resources */,
+				AC7032D71610345D00207FB5 /* iris.png in Resources */,
+				AC7032D81610345D00207FB5 /* peony.png in Resources */,
+				AC7032D91610345D00207FB5 /* phlox.png in Resources */,
+				AC7032DA1610345D00207FB5 /* pincushionflower.png in Resources */,
+				AC7032DB1610345D00207FB5 /* poppy.png in Resources */,
+				AC7032DC1610345D00207FB5 /* rose.png in Resources */,
+				AC7032DD1610345D00207FB5 /* sea holly.png in Resources */,
+				AC7032DE1610345D00207FB5 /* strawflower.png in Resources */,
+				AC7032DF1610345D00207FB5 /* tulip.png in Resources */,
+				AC2AFD7E166DA3BD00D36289 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC70328F1610337100207FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7032A61610337100207FB5 /* main.m in Sources */,
+				AC7032AA1610337100207FB5 /* AppDelegate.m in Sources */,
+				AC7032B31610337100207FB5 /* fuhe.xcdatamodeld in Sources */,
+				AC7032B61610337100207FB5 /* MasterViewController.m in Sources */,
+				AC7032B91610337100207FB5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC7032A21610337100207FB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7032A31610337100207FB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC7032AB1610337100207FB5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7032AC1610337100207FB5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7032AE1610337100207FB5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7032AF1610337100207FB5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7032BA1610337100207FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7032BB1610337100207FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7032BD1610337100207FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuhe/fuhe-Prefix.pch";
+				INFOPLIST_FILE = "fuhe/fuhe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC7032BE1610337100207FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuhe/fuhe-Prefix.pch";
+				INFOPLIST_FILE = "fuhe/fuhe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC70328D1610337100207FB5 /* Build configuration list for PBXProject "fuhe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7032BA1610337100207FB5 /* Debug */,
+				AC7032BB1610337100207FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7032BC1610337100207FB5 /* Build configuration list for PBXNativeTarget "fuhe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7032BD1610337100207FB5 /* Debug */,
+				AC7032BE1610337100207FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC7032B11610337100207FB5 /* fuhe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC7032B21610337100207FB5 /* fuhe.xcdatamodel */,
+			);
+			currentVersion = AC7032B21610337100207FB5 /* fuhe.xcdatamodel */;
+			path = fuhe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC70328A1610337100207FB5 /* Project object */;
+}

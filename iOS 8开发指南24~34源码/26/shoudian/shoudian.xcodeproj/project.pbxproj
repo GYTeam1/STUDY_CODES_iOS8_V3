@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAC25AB1611482D005A3165 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC25AA1611482D005A3165 /* UIKit.framework */; };
+		ACAC25AD1611482D005A3165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC25AC1611482D005A3165 /* Foundation.framework */; };
+		ACAC25AF1611482D005A3165 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC25AE1611482D005A3165 /* CoreGraphics.framework */; };
+		ACAC25B51611482D005A3165 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAC25B31611482D005A3165 /* InfoPlist.strings */; };
+		ACAC25B71611482D005A3165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC25B61611482D005A3165 /* main.m */; };
+		ACAC25BB1611482D005A3165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC25BA1611482D005A3165 /* AppDelegate.m */; };
+		ACAC25BE1611482D005A3165 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAC25BC1611482D005A3165 /* MainStoryboard.storyboard */; };
+		ACAC25C11611482D005A3165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC25C01611482D005A3165 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACAC25A61611482D005A3165 /* shoudian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoudian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC25AA1611482D005A3165 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACAC25AC1611482D005A3165 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACAC25AE1611482D005A3165 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACAC25B21611482D005A3165 /* shoudian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shoudian-Info.plist"; sourceTree = "<group>"; };
+		ACAC25B41611482D005A3165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACAC25B61611482D005A3165 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAC25B81611482D005A3165 /* shoudian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shoudian-Prefix.pch"; sourceTree = "<group>"; };
+		ACAC25B91611482D005A3165 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAC25BA1611482D005A3165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAC25BD1611482D005A3165 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACAC25BF1611482D005A3165 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACAC25C01611482D005A3165 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAC25A31611482D005A3165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC25AB1611482D005A3165 /* UIKit.framework in Frameworks */,
+				ACAC25AD1611482D005A3165 /* Foundation.framework in Frameworks */,
+				ACAC25AF1611482D005A3165 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAC259B1611482D005A3165 = {
+			isa = PBXGroup;
+			children = (
+				ACAC25B01611482D005A3165 /* shoudian */,
+				ACAC25A91611482D005A3165 /* Frameworks */,
+				ACAC25A71611482D005A3165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAC25A71611482D005A3165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC25A61611482D005A3165 /* shoudian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAC25A91611482D005A3165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC25AA1611482D005A3165 /* UIKit.framework */,
+				ACAC25AC1611482D005A3165 /* Foundation.framework */,
+				ACAC25AE1611482D005A3165 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACAC25B01611482D005A3165 /* shoudian */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC25B91611482D005A3165 /* AppDelegate.h */,
+				ACAC25BA1611482D005A3165 /* AppDelegate.m */,
+				ACAC25BC1611482D005A3165 /* MainStoryboard.storyboard */,
+				ACAC25BF1611482D005A3165 /* ViewController.h */,
+				ACAC25C01611482D005A3165 /* ViewController.m */,
+				ACAC25B11611482D005A3165 /* Supporting Files */,
+			);
+			path = shoudian;
+			sourceTree = "<group>";
+		};
+		ACAC25B11611482D005A3165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC25B21611482D005A3165 /* shoudian-Info.plist */,
+				ACAC25B31611482D005A3165 /* InfoPlist.strings */,
+				ACAC25B61611482D005A3165 /* main.m */,
+				ACAC25B81611482D005A3165 /* shoudian-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAC25A51611482D005A3165 /* shoudian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAC25C41611482D005A3165 /* Build configuration list for PBXNativeTarget "shoudian" */;
+			buildPhases = (
+				ACAC25A21611482D005A3165 /* Sources */,
+				ACAC25A31611482D005A3165 /* Frameworks */,
+				ACAC25A41611482D005A3165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shoudian;
+			productName = shoudian;
+			productReference = ACAC25A61611482D005A3165 /* shoudian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAC259D1611482D005A3165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = ACAC25A01611482D005A3165 /* Build configuration list for PBXProject "shoudian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACAC259B1611482D005A3165;
+			productRefGroup = ACAC25A71611482D005A3165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAC25A51611482D005A3165 /* shoudian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAC25A41611482D005A3165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC25B51611482D005A3165 /* InfoPlist.strings in Resources */,
+				ACAC25BE1611482D005A3165 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAC25A21611482D005A3165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC25B71611482D005A3165 /* main.m in Sources */,
+				ACAC25BB1611482D005A3165 /* AppDelegate.m in Sources */,
+				ACAC25C11611482D005A3165 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACAC25B31611482D005A3165 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC25B41611482D005A3165 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACAC25BC1611482D005A3165 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC25BD1611482D005A3165 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAC25C21611482D005A3165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACAC25C31611482D005A3165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAC25C51611482D005A3165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoudian/shoudian-Prefix.pch";
+				INFOPLIST_FILE = "shoudian/shoudian-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACAC25C61611482D005A3165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoudian/shoudian-Prefix.pch";
+				INFOPLIST_FILE = "shoudian/shoudian-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAC25A01611482D005A3165 /* Build configuration list for PBXProject "shoudian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC25C21611482D005A3165 /* Debug */,
+				ACAC25C31611482D005A3165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAC25C41611482D005A3165 /* Build configuration list for PBXNativeTarget "shoudian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC25C51611482D005A3165 /* Debug */,
+				ACAC25C61611482D005A3165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAC259D1611482D005A3165 /* Project object */;
+}

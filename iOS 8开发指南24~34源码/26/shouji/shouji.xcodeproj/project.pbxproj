@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2AFD4D166DA15B00D36289 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2AFD4C166DA15B00D36289 /* Default-568h@2x.png */; };
+		ACAC262F16118E6D005A3165 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC262E16118E6D005A3165 /* UIKit.framework */; };
+		ACAC263116118E6D005A3165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC263016118E6D005A3165 /* Foundation.framework */; };
+		ACAC263316118E6D005A3165 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAC263216118E6D005A3165 /* CoreGraphics.framework */; };
+		ACAC263916118E6D005A3165 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAC263716118E6D005A3165 /* InfoPlist.strings */; };
+		ACAC263B16118E6D005A3165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC263A16118E6D005A3165 /* main.m */; };
+		ACAC263F16118E6D005A3165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC263E16118E6D005A3165 /* AppDelegate.m */; };
+		ACAC264216118E6D005A3165 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAC264016118E6D005A3165 /* MainStoryboard.storyboard */; };
+		ACAC264516118E6D005A3165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC264416118E6D005A3165 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2AFD4C166DA15B00D36289 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACAC262A16118E6D005A3165 /* shouji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shouji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC262E16118E6D005A3165 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACAC263016118E6D005A3165 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACAC263216118E6D005A3165 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACAC263616118E6D005A3165 /* shouji-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shouji-Info.plist"; sourceTree = "<group>"; };
+		ACAC263816118E6D005A3165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACAC263A16118E6D005A3165 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAC263C16118E6D005A3165 /* shouji-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shouji-Prefix.pch"; sourceTree = "<group>"; };
+		ACAC263D16118E6D005A3165 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAC263E16118E6D005A3165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAC264116118E6D005A3165 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACAC264316118E6D005A3165 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACAC264416118E6D005A3165 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAC262716118E6D005A3165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC262F16118E6D005A3165 /* UIKit.framework in Frameworks */,
+				ACAC263116118E6D005A3165 /* Foundation.framework in Frameworks */,
+				ACAC263316118E6D005A3165 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAC261F16118E6D005A3165 = {
+			isa = PBXGroup;
+			children = (
+				AC2AFD4C166DA15B00D36289 /* Default-568h@2x.png */,
+				ACAC263416118E6D005A3165 /* shouji */,
+				ACAC262D16118E6D005A3165 /* Frameworks */,
+				ACAC262B16118E6D005A3165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAC262B16118E6D005A3165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC262A16118E6D005A3165 /* shouji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAC262D16118E6D005A3165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC262E16118E6D005A3165 /* UIKit.framework */,
+				ACAC263016118E6D005A3165 /* Foundation.framework */,
+				ACAC263216118E6D005A3165 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACAC263416118E6D005A3165 /* shouji */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC263D16118E6D005A3165 /* AppDelegate.h */,
+				ACAC263E16118E6D005A3165 /* AppDelegate.m */,
+				ACAC264016118E6D005A3165 /* MainStoryboard.storyboard */,
+				ACAC264316118E6D005A3165 /* ViewController.h */,
+				ACAC264416118E6D005A3165 /* ViewController.m */,
+				ACAC263516118E6D005A3165 /* Supporting Files */,
+			);
+			path = shouji;
+			sourceTree = "<group>";
+		};
+		ACAC263516118E6D005A3165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC263616118E6D005A3165 /* shouji-Info.plist */,
+				ACAC263716118E6D005A3165 /* InfoPlist.strings */,
+				ACAC263A16118E6D005A3165 /* main.m */,
+				ACAC263C16118E6D005A3165 /* shouji-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAC262916118E6D005A3165 /* shouji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAC264816118E6D005A3165 /* Build configuration list for PBXNativeTarget "shouji" */;
+			buildPhases = (
+				ACAC262616118E6D005A3165 /* Sources */,
+				ACAC262716118E6D005A3165 /* Frameworks */,
+				ACAC262816118E6D005A3165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shouji;
+			productName = shouji;
+			productReference = ACAC262A16118E6D005A3165 /* shouji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAC262116118E6D005A3165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = ACAC262416118E6D005A3165 /* Build configuration list for PBXProject "shouji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACAC261F16118E6D005A3165;
+			productRefGroup = ACAC262B16118E6D005A3165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAC262916118E6D005A3165 /* shouji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAC262816118E6D005A3165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC263916118E6D005A3165 /* InfoPlist.strings in Resources */,
+				ACAC264216118E6D005A3165 /* MainStoryboard.storyboard in Resources */,
+				AC2AFD4D166DA15B00D36289 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAC262616118E6D005A3165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC263B16118E6D005A3165 /* main.m in Sources */,
+				ACAC263F16118E6D005A3165 /* AppDelegate.m in Sources */,
+				ACAC264516118E6D005A3165 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACAC263716118E6D005A3165 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC263816118E6D005A3165 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACAC264016118E6D005A3165 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAC264116118E6D005A3165 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAC264616118E6D005A3165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACAC264716118E6D005A3165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAC264916118E6D005A3165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shouji/shouji-Prefix.pch";
+				INFOPLIST_FILE = "shouji/shouji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACAC264A16118E6D005A3165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shouji/shouji-Prefix.pch";
+				INFOPLIST_FILE = "shouji/shouji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAC262416118E6D005A3165 /* Build configuration list for PBXProject "shouji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC264616118E6D005A3165 /* Debug */,
+				ACAC264716118E6D005A3165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAC264816118E6D005A3165 /* Build configuration list for PBXNativeTarget "shouji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAC264916118E6D005A3165 /* Debug */,
+				ACAC264A16118E6D005A3165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAC262116118E6D005A3165 /* Project object */;
+}

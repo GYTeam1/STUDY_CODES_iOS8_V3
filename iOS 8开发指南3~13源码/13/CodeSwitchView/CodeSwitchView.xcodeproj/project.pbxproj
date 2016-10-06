@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120BC01E16245432007C15EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120BC01D16245432007C15EC /* UIKit.framework */; };
+		120BC02016245432007C15EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120BC01F16245432007C15EC /* Foundation.framework */; };
+		120BC02216245432007C15EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120BC02116245432007C15EC /* CoreGraphics.framework */; };
+		120BC02816245432007C15EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 120BC02616245432007C15EC /* InfoPlist.strings */; };
+		120BC02A16245432007C15EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120BC02916245432007C15EC /* main.m */; };
+		120BC02E16245433007C15EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120BC02D16245433007C15EC /* AppDelegate.m */; };
+		120BC03016245433007C15EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 120BC02F16245433007C15EC /* Default.png */; };
+		120BC03216245433007C15EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 120BC03116245433007C15EC /* Default@2x.png */; };
+		120BC03416245433007C15EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 120BC03316245433007C15EC /* Default-568h@2x.png */; };
+		120BC03C16245490007C15EC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120BC03B16245490007C15EC /* MainViewController.m */; };
+		120BC03F16245521007C15EC /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120BC03E16245521007C15EC /* RedViewController.m */; };
+		120BC04216245547007C15EC /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120BC04116245547007C15EC /* BlueViewController.m */; };
+		120BC0441624596A007C15EC /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120BC0431624596A007C15EC /* View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120BC01916245432007C15EC /* CodeSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120BC01D16245432007C15EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		120BC01F16245432007C15EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		120BC02116245432007C15EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		120BC02516245432007C15EC /* CodeSwitchView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeSwitchView-Info.plist"; sourceTree = "<group>"; };
+		120BC02716245432007C15EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		120BC02916245432007C15EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120BC02B16245432007C15EC /* CodeSwitchView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeSwitchView-Prefix.pch"; sourceTree = "<group>"; };
+		120BC02C16245433007C15EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		120BC02D16245433007C15EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		120BC02F16245433007C15EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		120BC03116245433007C15EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		120BC03316245433007C15EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		120BC03A16245490007C15EC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		120BC03B16245490007C15EC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		120BC03D16245521007C15EC /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		120BC03E16245521007C15EC /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		120BC04016245547007C15EC /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		120BC04116245547007C15EC /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		120BC0431624596A007C15EC /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120BC01616245432007C15EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120BC01E16245432007C15EC /* UIKit.framework in Frameworks */,
+				120BC02016245432007C15EC /* Foundation.framework in Frameworks */,
+				120BC02216245432007C15EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120BC00E16245432007C15EC = {
+			isa = PBXGroup;
+			children = (
+				120BC02316245432007C15EC /* CodeSwitchView */,
+				120BC01C16245432007C15EC /* Frameworks */,
+				120BC01A16245432007C15EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		120BC01A16245432007C15EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120BC01916245432007C15EC /* CodeSwitchView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120BC01C16245432007C15EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120BC01D16245432007C15EC /* UIKit.framework */,
+				120BC01F16245432007C15EC /* Foundation.framework */,
+				120BC02116245432007C15EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		120BC02316245432007C15EC /* CodeSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				120BC02C16245433007C15EC /* AppDelegate.h */,
+				120BC02D16245433007C15EC /* AppDelegate.m */,
+				120BC03A16245490007C15EC /* MainViewController.h */,
+				120BC03B16245490007C15EC /* MainViewController.m */,
+				120BC03D16245521007C15EC /* RedViewController.h */,
+				120BC03E16245521007C15EC /* RedViewController.m */,
+				120BC04016245547007C15EC /* BlueViewController.h */,
+				120BC04116245547007C15EC /* BlueViewController.m */,
+				120BC02416245432007C15EC /* Supporting Files */,
+				120BC0431624596A007C15EC /* View.xib */,
+			);
+			path = CodeSwitchView;
+			sourceTree = "<group>";
+		};
+		120BC02416245432007C15EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				120BC02516245432007C15EC /* CodeSwitchView-Info.plist */,
+				120BC02616245432007C15EC /* InfoPlist.strings */,
+				120BC02916245432007C15EC /* main.m */,
+				120BC02B16245432007C15EC /* CodeSwitchView-Prefix.pch */,
+				120BC02F16245433007C15EC /* Default.png */,
+				120BC03116245433007C15EC /* Default@2x.png */,
+				120BC03316245433007C15EC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120BC01816245432007C15EC /* CodeSwitchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120BC03716245433007C15EC /* Build configuration list for PBXNativeTarget "CodeSwitchView" */;
+			buildPhases = (
+				120BC01516245432007C15EC /* Sources */,
+				120BC01616245432007C15EC /* Frameworks */,
+				120BC01716245432007C15EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeSwitchView;
+			productName = CodeSwitchView;
+			productReference = 120BC01916245432007C15EC /* CodeSwitchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120BC01016245432007C15EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "wu bei";
+			};
+			buildConfigurationList = 120BC01316245432007C15EC /* Build configuration list for PBXProject "CodeSwitchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 120BC00E16245432007C15EC;
+			productRefGroup = 120BC01A16245432007C15EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120BC01816245432007C15EC /* CodeSwitchView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120BC01716245432007C15EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120BC02816245432007C15EC /* InfoPlist.strings in Resources */,
+				120BC03016245433007C15EC /* Default.png in Resources */,
+				120BC03216245433007C15EC /* Default@2x.png in Resources */,
+				120BC03416245433007C15EC /* Default-568h@2x.png in Resources */,
+				120BC0441624596A007C15EC /* View.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120BC01516245432007C15EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120BC02A16245432007C15EC /* main.m in Sources */,
+				120BC02E16245433007C15EC /* AppDelegate.m in Sources */,
+				120BC03C16245490007C15EC /* MainViewController.m in Sources */,
+				120BC03F16245521007C15EC /* RedViewController.m in Sources */,
+				120BC04216245547007C15EC /* BlueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		120BC02616245432007C15EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120BC02716245432007C15EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120BC03516245433007C15EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		120BC03616245433007C15EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120BC03816245433007C15EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeSwitchView/CodeSwitchView-Prefix.pch";
+				INFOPLIST_FILE = "CodeSwitchView/CodeSwitchView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		120BC03916245433007C15EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeSwitchView/CodeSwitchView-Prefix.pch";
+				INFOPLIST_FILE = "CodeSwitchView/CodeSwitchView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120BC01316245432007C15EC /* Build configuration list for PBXProject "CodeSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120BC03516245433007C15EC /* Debug */,
+				120BC03616245433007C15EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120BC03716245433007C15EC /* Build configuration list for PBXNativeTarget "CodeSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120BC03816245433007C15EC /* Debug */,
+				120BC03916245433007C15EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120BC01016245432007C15EC /* Project object */;
+}

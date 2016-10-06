@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0333AB1623C58500619D66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0333AA1623C58500619D66 /* Default-568h@2x.png */; };
+		ACB3139B16133C6C0002AF67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB3139A16133C6C0002AF67 /* UIKit.framework */; };
+		ACB3139D16133C6C0002AF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB3139C16133C6C0002AF67 /* Foundation.framework */; };
+		ACB3139F16133C6C0002AF67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB3139E16133C6C0002AF67 /* CoreGraphics.framework */; };
+		ACB313A516133C6C0002AF67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACB313A316133C6C0002AF67 /* InfoPlist.strings */; };
+		ACB313A716133C6C0002AF67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB313A616133C6C0002AF67 /* main.m */; };
+		ACB313AB16133C6C0002AF67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB313AA16133C6C0002AF67 /* AppDelegate.m */; };
+		ACB313AE16133C6C0002AF67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB313AC16133C6C0002AF67 /* MainStoryboard.storyboard */; };
+		ACB313B116133C6C0002AF67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB313B016133C6C0002AF67 /* ViewController.m */; };
+		ACB313CD161346F00002AF67 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB313CC161346F00002AF67 /* flower.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0333AA1623C58500619D66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACB3139616133C6C0002AF67 /* shoushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3139A16133C6C0002AF67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACB3139C16133C6C0002AF67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACB3139E16133C6C0002AF67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACB313A216133C6C0002AF67 /* shoushi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shoushi-Info.plist"; sourceTree = "<group>"; };
+		ACB313A416133C6C0002AF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACB313A616133C6C0002AF67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACB313A816133C6C0002AF67 /* shoushi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shoushi-Prefix.pch"; sourceTree = "<group>"; };
+		ACB313A916133C6C0002AF67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACB313AA16133C6C0002AF67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACB313AD16133C6C0002AF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACB313AF16133C6C0002AF67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACB313B016133C6C0002AF67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACB313CC161346F00002AF67 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB3139316133C6C0002AF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB3139B16133C6C0002AF67 /* UIKit.framework in Frameworks */,
+				ACB3139D16133C6C0002AF67 /* Foundation.framework in Frameworks */,
+				ACB3139F16133C6C0002AF67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB3138B16133C6C0002AF67 = {
+			isa = PBXGroup;
+			children = (
+				AC0333AA1623C58500619D66 /* Default-568h@2x.png */,
+				ACB313A016133C6C0002AF67 /* shoushi */,
+				ACB3139916133C6C0002AF67 /* Frameworks */,
+				ACB3139716133C6C0002AF67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB3139716133C6C0002AF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3139616133C6C0002AF67 /* shoushi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB3139916133C6C0002AF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3139A16133C6C0002AF67 /* UIKit.framework */,
+				ACB3139C16133C6C0002AF67 /* Foundation.framework */,
+				ACB3139E16133C6C0002AF67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACB313A016133C6C0002AF67 /* shoushi */ = {
+			isa = PBXGroup;
+			children = (
+				ACB313CB161346F00002AF67 /* Images */,
+				ACB313A916133C6C0002AF67 /* AppDelegate.h */,
+				ACB313AA16133C6C0002AF67 /* AppDelegate.m */,
+				ACB313AC16133C6C0002AF67 /* MainStoryboard.storyboard */,
+				ACB313AF16133C6C0002AF67 /* ViewController.h */,
+				ACB313B016133C6C0002AF67 /* ViewController.m */,
+				ACB313A116133C6C0002AF67 /* Supporting Files */,
+			);
+			path = shoushi;
+			sourceTree = "<group>";
+		};
+		ACB313A116133C6C0002AF67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB313A216133C6C0002AF67 /* shoushi-Info.plist */,
+				ACB313A316133C6C0002AF67 /* InfoPlist.strings */,
+				ACB313A616133C6C0002AF67 /* main.m */,
+				ACB313A816133C6C0002AF67 /* shoushi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACB313CB161346F00002AF67 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACB313CC161346F00002AF67 /* flower.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB3139516133C6C0002AF67 /* shoushi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB313B416133C6C0002AF67 /* Build configuration list for PBXNativeTarget "shoushi" */;
+			buildPhases = (
+				ACB3139216133C6C0002AF67 /* Sources */,
+				ACB3139316133C6C0002AF67 /* Frameworks */,
+				ACB3139416133C6C0002AF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shoushi;
+			productName = shoushi;
+			productReference = ACB3139616133C6C0002AF67 /* shoushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB3138D16133C6C0002AF67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = ACB3139016133C6C0002AF67 /* Build configuration list for PBXProject "shoushi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACB3138B16133C6C0002AF67;
+			productRefGroup = ACB3139716133C6C0002AF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB3139516133C6C0002AF67 /* shoushi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB3139416133C6C0002AF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB313A516133C6C0002AF67 /* InfoPlist.strings in Resources */,
+				ACB313AE16133C6C0002AF67 /* MainStoryboard.storyboard in Resources */,
+				ACB313CD161346F00002AF67 /* flower.png in Resources */,
+				AC0333AB1623C58500619D66 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB3139216133C6C0002AF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB313A716133C6C0002AF67 /* main.m in Sources */,
+				ACB313AB16133C6C0002AF67 /* AppDelegate.m in Sources */,
+				ACB313B116133C6C0002AF67 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACB313A316133C6C0002AF67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB313A416133C6C0002AF67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACB313AC16133C6C0002AF67 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB313AD16133C6C0002AF67 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB313B216133C6C0002AF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACB313B316133C6C0002AF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB313B516133C6C0002AF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoushi/shoushi-Prefix.pch";
+				INFOPLIST_FILE = "shoushi/shoushi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACB313B616133C6C0002AF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoushi/shoushi-Prefix.pch";
+				INFOPLIST_FILE = "shoushi/shoushi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB3139016133C6C0002AF67 /* Build configuration list for PBXProject "shoushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB313B216133C6C0002AF67 /* Debug */,
+				ACB313B316133C6C0002AF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB313B416133C6C0002AF67 /* Build configuration list for PBXNativeTarget "shoushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB313B516133C6C0002AF67 /* Debug */,
+				ACB313B616133C6C0002AF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB3138D16133C6C0002AF67 /* Project object */;
+}
